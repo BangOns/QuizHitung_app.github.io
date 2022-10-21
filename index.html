@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./src/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="judul"><h1>Latihan Menghitung</h1></div>
+      <div class="waktu">
+        <span class="jam">00:<span class="menit">00</span> </span>
+      </div>
+      <div class="container-game">
+        <div class="angka1">
+          <div class="random-angka1">0</div>
+        </div>
+        <div class="operator"><div class="op">+</div></div>
+        <div class="angka2">
+          <div class="random-angka2">0</div>
+        </div>
+        <div class="sama-dengan"><div class="op">=</div></div>
+        <div class="user">
+          <input type="text" class="inputan-user" />
+          <span class="klik" role="button">Hitung</span>
+        </div>
+        <div class="acak-angka" role="button">
+          <h1>acak</h1>
+        </div>
+      </div>
+      <div>
+        <table class="tabel-hasil">
+          <tr class="petunjuk">
+            <th>Operasi Hitung</th>
+            <th>Hasil</th>
+            <th>Inputan</th>
+          </tr>
+          <tbody class="tabel"></tbody>
+        </table>
+      </div>
+    </div>
+    <script type="module" src="./src/app/hitNilai.js"></script>
+    <script type="module" src="./src/app/putar.js"></script>
+    <script type="module" src="./src/app/Menghitung.js"></script>
+    <script type="module" src="./src/app/time.js"></script>
+    <script type="module" src="./src/app/notif.js"></script>
+    <script type="module" src="./src/app/toLocaleStorage.js"></script>
+    <script type="module" src="./src/main.js"></script>
+    <script src="./src/sweetalert.min.js"></script>
+  </body>
+</html>
